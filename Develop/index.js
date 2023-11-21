@@ -59,22 +59,23 @@ const promptUser = () => {
 };
 
 // TODO: Create a function to write README file
-const generateReadMe = ({title,description,instalation,usage,futureImplementations,license,githubUser,email}) =>
+const generateReadMe = ({title,description,instalation,usage,futureImplementations,license,githubUser,email,screenshot,link}) =>
 `# ${title}
 
 ## licence
 ${license}
+![NPM](https://img.shields.io/npm/l/react?logo=npm&logoColor=purple&labelColor=white&color=purple)
 
 ## Description
 ${description}
 
 # Table of Contents
-*Instalation
-*Usage
-*Future Implementations
-*Contact For Questions
-*Live Screenshot
-*Link to Application
+-Instalation \\
+-Usage \\
+-Future Implementations \\
+-Contact For Questions \\
+-Live Screenshot \\
+-Link to Application \\
 
 
 ## Instalation
